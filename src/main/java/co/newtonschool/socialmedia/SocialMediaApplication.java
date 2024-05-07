@@ -7,7 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-class SocialMediaApplication {
+public class SocialMediaApplication {
 	private static PostRepository postRepository;
 	private static PostService postService;
 

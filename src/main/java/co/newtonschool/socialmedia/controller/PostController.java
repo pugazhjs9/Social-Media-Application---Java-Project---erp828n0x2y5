@@ -29,6 +29,7 @@ public class PostController {
         ResponseEntity<?> responseEntity = postService.readPosts();
 
         PostResponseList postResponseList = (PostResponseList) responseEntity.getBody();
+        @SuppressWarnings("null")
         List<PostResponse> postResponses = postResponseList.getPostResponseList();
 
         modelAndView.addObject("postList", postResponses);

@@ -35,6 +35,8 @@ public class PostServiceImpl implements PostService {
 
             postResponseList.add(postResponse);
         }
+        // Add a semicolon at the end of the line
+        ;
 
         PostResponseList posts = new PostResponseList(postResponseList);
 

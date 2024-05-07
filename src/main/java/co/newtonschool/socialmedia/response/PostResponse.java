@@ -17,44 +17,43 @@ public class PostResponse {
         this.unlikeCount = unlikeCount;
     }
 
-    // Getters and setters if needed
-    // public int getPostId() {
-    //     return postId;
-    // }
+    public int getPostId() {
+        return postId;
+    }
 
-    // public void setPostId(int postId) {
-    //     this.postId = postId;
-    // }
+    public void setPostId(int postId) {
+        this.postId = postId;
+    }
 
-    // public String getContent() {
-    //     return content;
-    // }
+    public String getContent() {
+        return content;
+    }
 
-    // public void setContent(String content) {
-    //     this.content = content;
-    // }
+    public void setContent(String content) {
+        this.content = content;
+    }
 
-    // public LocalDateTime getCreatedAt() {
-    //     return createdAt;
-    // }
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
 
-    // public void setCreatedAt(LocalDateTime createdAt) {
-    //     this.createdAt = createdAt;
-    // }
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
 
-    // public int getLikeCount() {
-    //     return likeCount;
-    // }
+    public int getLikeCount() {
+        return likeCount;
+    }
 
-    // public void setLikeCount(int likeCount) {
-    //     this.likeCount = likeCount;
-    // }
+    public void setLikeCount(int likeCount) {
+        this.likeCount = likeCount;
+    }
 
-    // public int getUnlikeCount() {
-    //     return unlikeCount;
-    // }
+    public int getUnlikeCount() {
+        return unlikeCount;
+    }
 
-    // public void setUnlikeCount(int unlikeCount) {
-    //     this.unlikeCount = unlikeCount;
-    // }
+    public void setUnlikeCount(int unlikeCount) {
+        this.unlikeCount = unlikeCount;
+    }
 }
